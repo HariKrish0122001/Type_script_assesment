@@ -1,0 +1,36 @@
+*{
+    margin-top:5% ;
+}
+.container{
+    border-radius: 5%;
+    background-color:antiquewhite;
+    width: 70%;
+} 
+.col-2{
+    padding-top: 80px;
+    padding-left: 5px;
+}
+#search{
+    margin-bottom:20px ;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+   
+}
+li{
+    display: flex;
+    justify-content:space-around;
+    height: 40px !important;;
+    /* gap: 100px; */
+}
+.task_name{
+
+    height: 40px;
+    border: transparent;
+   
+}
+.fa-solid{
+    border-radius: 10px;
+    border-color: transparent;
+}
